@@ -51,6 +51,12 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+*.dylib
+*.bhc
+*.dag
+*.so
+/[Bb]aluTheFlyingGame/[Ll]ibrary/[Pp]ackage[Cc]ache
+/[Bb]aluTheFlyingGame/[Ll]ibrary/[Aa]rtifact[Dd][Bb]
 
 # Unity3D generated file on crash reports
 sysinfo.txt
