@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BearScript
+    - LevelManager
     - LogicScript
     - PipeMiddleScript
     - PipeMovementScript
@@ -90,6 +91,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
+    fullTypeName: LevelManager
+    methodName: MoveToScene
+  - assembly: Assembly-CSharp
     fullTypeName: LogicScript
     methodName: restartGame
   sceneClasses:
@@ -130,6 +134,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6730}
     - Class: 114
       Script: {instanceID: 6944}
+    - Class: 114
+      Script: {instanceID: 25166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,9 +196,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7452}
     - Class: 114
-      Script: {instanceID: 7644}
+      Script: {instanceID: 8992}
     - Class: 114
-      Script: {instanceID: 8994}
+      Script: {instanceID: 9682}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -952,12 +958,6 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 4580f08977985efb15d4b16079b87354
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BearScript
-  - hash:
-      serializedVersion: 2
       Hash: a119221a1c3d590645a52df2cbebb41c
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine
@@ -1226,6 +1226,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4580f08977985efb15d4b16079b87354
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BearScript
+  - hash:
+      serializedVersion: 2
+      Hash: af2c3e574db6c3d3b577877c246d7f0b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main screen.unity
