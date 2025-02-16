@@ -1,4 +1,4 @@
-# Balu-The-Flying-Game
+# Balu-The-Flying-Bear
 
 ## Overview
 
